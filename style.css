@@ -39,7 +39,7 @@ img {
     margin-bottom: 10px;
 }
 
-button {
+.container button {
     background-color: orangered;
     color: whitesmoke;
     border: none;
