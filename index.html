@@ -10,13 +10,15 @@
 </head>
 
 <body>
-    <main>
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Search country details..." />
-            <button id="searchButton">Search</button>
-        </div>
-        <div id="mealData" class="grid-container">
-        </div>
+    <header>
+        <h1>MealBD</h1>
+    </header>
+
+    <main class="container">
+        <input type="text" id="searchInput" placeholder="Search for particular meal">
+        <button onclick="searchMeal()">Search</button>
+        <div id="mealList"></div>
+        <button id="showAllBtn" style="display: none;" onclick="showAllMeals()">SHOW ALL</button>
     </main>
 
     <footer class="f">
